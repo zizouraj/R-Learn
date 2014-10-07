@@ -1,0 +1,34 @@
+Notes on R
+-----------
+1.) It seems everthing in R is object just like other languages which I have worked on such as Javascript, C#, Java etc.
+
+2.) R has five basic or "atomic" classes of object - what do I mean by this?
+ -character
+ -numeric
+ -integer
+ -complex
+ -logical
+
+3.) Here R can be compared with Javascript which too contains similar primitive objects, except for "complex" object.
+
+R Datatype         Javascript Datatype
+--------------------------------------
+character           string
+numeric             number
+logical             boolean
+integer
+complex
+
+Little bit more about primitive data types in R
+-----------------------------------------------
+Numbers - Numbers in R are generally treated as numeric objects (double precision real numbers- what do i mean by this)
+Examples- 1 is number, 1L is an integer, Inf (Can be used in calculation!!), NaN.
+
+4.) The most basic object of R is vector.  
+
+5.) R objects can have attributes - Examples are names, dimnames, dimensions, class, length, etc.
+
+Comparing R with other langs
+----------------------------
+Usually, in C# we create class and object is instantiated from the class. But somehow here, I find that objects are created
+and it's class can be found out by class() function. Similar to typeof()
